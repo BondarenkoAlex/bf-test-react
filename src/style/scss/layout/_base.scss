@@ -13,6 +13,9 @@ body {
   width: 30%;
   padding: 40px 40px 0;
   background: linear-gradient(to bottom, #253852 0%, #3f6679 55%, #253852 84%, #3f6679 100%);
+  transition: 0.5s ease-in-out 0.5s;
+  transition-property: top;
+  top: -40px;
 
   &:before {
     position: absolute;
@@ -120,5 +123,9 @@ body {
       width: 40px;
       border-radius: 2px;
     }
+  }
+  &__floors{
+    top: -65px;
+    position: relative;
   }
 }

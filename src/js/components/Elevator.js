@@ -6,9 +6,10 @@ import image from '../../images/hangover.jpg';
 function Elevator({floor, isOpen}) {
     let openClass = isOpen
         ? "elevator--open"
-        : null;
+        : "";
+    let topPos = -(floor-1)*90;
     return (
-        <div className={`elevator ${openClass}`}>
+        <div className={`elevator ${openClass}`} style={{top:topPos}}>
             <div className="elevator__people">
                 <img src={image} alt=""/>
             </div>

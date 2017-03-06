@@ -16,7 +16,7 @@ class App extends Component {
 
     render() {
         return (
-            <div className="flex-row align-center justify-center" style={{height: '100%'}}>
+            <div className="flex-row align-end justify-center" style={{height: '100%', margin: '150px 0'}}>
                 <ElevatorContainer/>
                 <ElevatorPanelContainer/>
                 <ElevatorPanelFloorWrapContainer/>

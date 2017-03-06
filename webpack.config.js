@@ -17,7 +17,7 @@ module.exports = {
     },
     output    : {
         path      : path.resolve(__dirname, './dist'),
-        publicPath: '/bf-test-react/', //   /js/app.js //интернет путь к нашей сборкое, возможен вариант с http:\\... в конце слеш обязателен
+        publicPath: '/bf-test-react/', //   bf-test-react/
         filename  : "app.js",
         //library: "[name]" //модуль, который мы собираем поместится в эту переменную, чтобы можно было использовать его где-то еще
         //chunks: ["./home", "./about"] //только из этих модулей выносить общую часть
