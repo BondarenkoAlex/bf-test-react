@@ -26,14 +26,6 @@ module.exports = {
         contentBase: './dist',
         outputPath : path.resolve(__dirname, 'dist'),
     },
-    /*    resolve: {
-     root: [
-     path.resolve(__dirname),
-     ],
-     modulesDirectories: [
-     'node_modules'
-     ]
-     },*/
     sassLoader: {
         includePaths: [
             path.resolve(__dirname, 'node_modules/bootstrap-sass/assets/stylesheets')
